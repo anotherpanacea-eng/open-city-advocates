@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $hero := resources.Get "images/hero.webp" }}
-<section class="hero"{{ with $hero }} style="background-image: linear-gradient(rgba(20,26,34,.55), rgba(20,26,34,.65)), url('{{ .RelPermalink }}');"{{ end }}>
+<section class="hero"{{ with $hero }} style="background-image: linear-gradient(rgba(45,40,36,.52), rgba(45,40,36,.62)), url('{{ .RelPermalink }}');"{{ end }}>
   <div class="wrap hero-inner">
     <h1 class="hero-title">Mission</h1>
     <p class="hero-mission">{{ .Params.mission | default .Site.Params.description }}</p>

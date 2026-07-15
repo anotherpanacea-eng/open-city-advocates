@@ -1,6 +1,6 @@
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div class="footer-brand">Open City Advocates</div>
+    {{ with resources.Get "images/logo-reversed.png" }}<img class="footer-logo" src="{{ .RelPermalink }}" alt="Open City Advocates" width="253" height="50">{{ else }}<div class="footer-brand">Open City Advocates</div>{{ end }}
     <address class="footer-contact">
       {{ .Site.Params.address }}<br>
       <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>

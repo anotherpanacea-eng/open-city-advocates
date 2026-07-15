@@ -3,15 +3,17 @@
    Palette: neutral near-black on white; orange (#f0523d) used sparingly (logo + accents). */
 
 :root {
-  --ink: #1f1f1f;
-  --ink-soft: #3e3e3e;
-  --muted: #6b6b6b;
+  /* Official OCA brand palette (Visual Branding Guide V-01) */
+  --ink: #4e4540;        /* OCA Brown */
+  --ink-soft: #5c534d;
+  --muted: #7f7770;      /* OCA Grey */
   --bg: #ffffff;
-  --bg-alt: #f6f6f6;
-  --line: #e4e4e4;
-  --accent: #f0523d;
-  --accent-dark: #c93c2a;
-  --navy: #141a22;
+  --bg-alt: #efece9;     /* warm off-white */
+  --line: #e3ddd8;
+  --accent: #c8531f;     /* OCA Orange */
+  --accent-dark: #a5401a;
+  --yellow: #fdb71a;     /* OCA Yellow */
+  --dark: #3d3631;       /* deep warm brown for footer / hero overlay (no navy in brand) */
   --wrap: 1140px;
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "Nunito Sans", system-ui, -apple-system, sans-serif;
@@ -32,7 +34,7 @@ body {
 a { color: var(--ink); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; text-decoration-color: rgba(240,82,61,.5); }
 a:hover { color: var(--accent-dark); }
 
-h1, h2, h3 { font-family: var(--serif); color: var(--ink); line-height: 1.12; font-weight: 600; }
+h1, h2, h3 { font-family: var(--serif); color: var(--ink); line-height: 1.12; font-weight: 500; }
 h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); margin: 0 0 .4em; }
 h2 { font-size: clamp(1.9rem, 3.4vw, 2.6rem); margin: 1.4em 0 .35em; font-weight: 500; }
 h3 { font-size: 1.5rem; margin: 1.3em 0 .3em; }
@@ -82,7 +84,7 @@ h3 { font-size: 1.5rem; margin: 1.3em 0 .3em; }
 
 /* Hero — full-bleed image with overlaid white Mission text */
 .hero {
-  background: var(--navy) center/cover no-repeat;
+  background: var(--dark) center/cover no-repeat;
   color: #fff;
   min-height: 62vh;
   display: flex;
@@ -122,8 +124,9 @@ h3 { font-size: 1.5rem; margin: 1.3em 0 .3em; }
 .post-list-date { font-family: var(--sans); color: var(--muted); font-size: .9rem; white-space: nowrap; }
 
 /* Footer */
-.site-footer { background: var(--navy); color: #cdd6e0; margin-top: 40px; }
+.site-footer { background: var(--dark); color: #cdd6e0; margin-top: 40px; }
 .footer-inner { padding: 52px 28px; }
+.footer-logo { height: 50px; width: auto; display: block; margin-bottom: 1.2em; }
 .footer-brand { font-family: var(--serif); font-size: 1.6rem; color: #fff; margin-bottom: .5em; }
 .footer-contact { font-style: normal; line-height: 1.9; }
 .footer-contact a { color: #fff; text-decoration-color: rgba(255,255,255,.4); }
