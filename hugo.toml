@@ -11,9 +11,9 @@ enableGitInfo = false
   email = "info@opencityadvocates.org"
   phone = "202-678-9001"
   address = "1328 Florida Avenue NW, Second Floor, Washington, DC 20009"
-  # External action links (NeonCRM) — TODO: replace "#" with real Neon URLs before launch
-  subscribeURL = "#"
-  donateURL = "#"
+  # External action links (NeonCRM), verified live 2026-07-15
+  subscribeURL = "https://opencityadvocates.app.neoncrm.com/subscribe.jsp"
+  donateURL = "https://opencityadvocates.app.neoncrm.com/forms/donation-form"
 
 [menu]
   [[menu.main]]
