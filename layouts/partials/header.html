@@ -1,6 +1,8 @@
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="{{ .Site.Home.RelPermalink }}">Open City Advocates</a>
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}" aria-label="Open City Advocates — home">
+      {{ with resources.Get "images/logo.webp" }}<img src="{{ .RelPermalink }}" alt="Open City Advocates" width="220" height="52">{{ else }}Open City Advocates{{ end }}
+    </a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
     <nav class="site-nav" aria-label="Primary">
       <ul class="nav-list">
@@ -16,12 +18,10 @@
             <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a></li>
           {{ end }}
         {{ end }}
+        <li><a href="{{ .Site.Params.subscribeURL }}">Subscribe</a></li>
+        {{ with .Site.GetPage "/join-us" }}<li><a href="{{ .RelPermalink }}">Join Us</a></li>{{ end }}
+        <li><a class="nav-donate" href="{{ .Site.Params.donateURL }}">Donate</a></li>
       </ul>
-      <div class="nav-actions">
-        <a class="btn btn-outline" href="{{ .Site.Params.subscribeURL }}">Subscribe</a>
-        {{ with .Site.GetPage "/join-us" }}<a class="btn btn-outline" href="{{ .RelPermalink }}">Join Us</a>{{ end }}
-        <a class="btn btn-solid" href="{{ .Site.Params.donateURL }}">Donate</a>
-      </div>
     </nav>
   </div>
 </header>

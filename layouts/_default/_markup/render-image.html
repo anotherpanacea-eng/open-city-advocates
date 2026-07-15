@@ -1,0 +1,7 @@
+{{- /* Rewrite root-absolute image paths (e.g. /images/foo.jpg) through relURL so they
+       carry the baseURL subpath on GitHub Pages. Leaves external/relative URLs untouched. */ -}}
+{{- $dest := .Destination -}}
+{{- if strings.HasPrefix $dest "/" -}}
+  {{- $dest = $dest | relURL -}}
+{{- end -}}
+<img src="{{ $dest }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">
