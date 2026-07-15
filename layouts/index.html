@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Open City Advocates · Washington, DC</p>
+    <h1 class="hero-title">{{ .Site.Params.tagline }}</h1>
+    <p class="hero-sub">{{ .Site.Params.description }}</p>
+    <div class="hero-actions">
+      <a class="btn btn-solid" href="{{ .Site.Params.donateURL }}">Donate</a>
+      {{ with .Site.GetPage "/join-us" }}<a class="btn btn-outline" href="{{ .RelPermalink }}">Join Us</a>{{ end }}
+    </div>
+  </div>
+</section>
+<div class="wrap prose home-prose">
+  {{ .Content }}
+</div>
+{{ end }}

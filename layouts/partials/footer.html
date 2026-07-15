@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">Open City Advocates</div>
+    <address class="footer-contact">
+      {{ .Site.Params.address }}<br>
+      <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+      <span aria-hidden="true"> · </span>
+      <a href="tel:{{ replace .Site.Params.phone "-" "" }}">{{ .Site.Params.phone }}</a>
+    </address>
+    <p class="footer-note">Open City Advocates is a 501(c)(3) organization.</p>
+  </div>
+</footer>
