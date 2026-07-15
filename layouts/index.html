@@ -6,24 +6,28 @@
     <p class="hero-mission">{{ .Params.mission | default .Site.Params.description }}</p>
   </div>
 </section>
-<section class="video-section">
-  <div class="wrap">
-    <p class="eyebrow">Watch</p>
-    <h2>Our Story</h2>
-    <div class="video-embed">
-      <iframe src="https://www.youtube-nocookie.com/embed/oAz_uYa4SlM" title="Open City Advocates" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-    </div>
-  </div>
-</section>
+
 <div class="wrap prose home-prose">
   {{ .Content }}
 </div>
-<section class="cta-band">
-  <div class="wrap cta-inner">
-    <p class="cta-lead">Support youth-centered legal defense in DC.</p>
-    <div class="cta-actions">
-      <a class="btn btn-solid" href="{{ .Site.Params.donateURL }}">Donate Now</a>
-      {{ with .Site.GetPage "/news-updates/our-2025-annual-report" }}<a class="btn btn-outline-light" href="{{ .RelPermalink }}">Read Our Annual Report</a>{{ end }}
+
+<section class="video-section">
+  <div class="wrap">
+    <div class="video-embed">
+      <iframe src="https://www.youtube-nocookie.com/embed/oAz_uYa4SlM" title="20 Years of Open City Advocates" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="vision-section">
+  <div class="wrap vision-grid">
+    <div class="vision-text">
+      <h2>Vision</h2>
+      <p>{{ .Params.vision }}</p>
+      {{ with .Site.GetPage "/our-team" }}<a class="btn btn-solid" href="{{ .RelPermalink }}">Meet The Team →</a>{{ end }}
+    </div>
+    <div class="vision-photo">
+      {{ with resources.Get "images/team-courtroom.jpeg" }}<img src="{{ .RelPermalink }}" alt="The Open City Advocates team" loading="lazy">{{ end }}
     </div>
   </div>
 </section>

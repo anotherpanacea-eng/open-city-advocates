@@ -18,7 +18,7 @@ enableGitInfo = false
 [menu]
   [[menu.main]]
     name = "About Us"
-    pageRef = "/about-us"
+    pageRef = "/"
     weight = 10
   [[menu.main]]
     name = "Our Team"
