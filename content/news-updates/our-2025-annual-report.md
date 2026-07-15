@@ -7,3 +7,7 @@ author: "Joshua Miller"
 Read all about our work in 2025!
 
 [Read our 2025 Annual Report](https://heyzine.com/flip-book/0235268457.html)
+
+<div class="flipbook-embed">
+  <iframe src="https://heyzine.com/flip-book/0235268457.html" title="Open City Advocates 2025 Annual Report" allowfullscreen loading="lazy"></iframe>
+</div>

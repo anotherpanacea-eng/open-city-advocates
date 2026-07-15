@@ -2,7 +2,7 @@
 title: "A Call to Expand Post-Disposition Representation of Youth in the Juvenile Legal System"
 ---
 
-[![](/images/expanding-post-disposition-research.png)](/s/A-Call-to-Expand-Post-Dispo-Representation.pdf)
+[![Read the report](/images/expanding-post-disposition-research.png)](/A-Call-to-Expand-Post-Dispo-Representation.pdf)
 
 In 2020, after the District of Columbia Court of Appeals released its decision in *In re N.H.M.*, expanding DC youths' access to post-disposition counsel, Open City Advocates, which represented N.H.M., contacted the Gault Center to explore how to support the expansion of post-disposition representation in other jurisdictions. We reviewed analyses of post-disposition representation of youth, surveys of state laws, and relevant court decisions; talked with youth defenders who provide post-disposition representation; conducted virtual site visits of offices that focus on providing holistic post-disposition defense; and heard numerous stories of young people whose success in moving past their juvenile court involvement was catalyzed by post-disposition youth defense teams.
 

@@ -3,6 +3,8 @@ title: "Penelope Spain, Esq."
 role: "Co-Founder & Chief Executive Officer"
 ---
 
+![Penelope Spain, Esq.](/images/penelope-spain.jpg)
+
 Penelope Spain is Co-Founder and Chief Executive Officer of Open City Advocates. She has committed her career to ensuring that young people have legal representation and access to individualized services at every phase of our juvenile and criminal justice systems.
 
 Penelope grew up in northern California where, at a young age, she saw the challenges her city's immigrant community faced and developed a passion for confronting injustice. After earning a bachelor's degree with honors in Latin American Studies from the University of Chicago, she lived and worked in a remote jungle community in Venezuela. Returning to the United States, Penelope worked as an immigration paralegal before attending American University Washington College of Law, graduating in 2005.
