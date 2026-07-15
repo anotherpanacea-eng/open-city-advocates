@@ -9,4 +9,13 @@
 <div class="wrap prose home-prose">
   {{ .Content }}
 </div>
+<section class="cta-band">
+  <div class="wrap cta-inner">
+    <p class="cta-lead">Support youth-centered legal defense in DC.</p>
+    <div class="cta-actions">
+      <a class="btn btn-solid" href="{{ .Site.Params.donateURL }}">Donate Now</a>
+      {{ with .Site.GetPage "/news-updates/our-2025-annual-report" }}<a class="btn btn-outline-light" href="{{ .RelPermalink }}">Read Our Annual Report</a>{{ end }}
+    </div>
+  </div>
+</section>
 {{ end }}
