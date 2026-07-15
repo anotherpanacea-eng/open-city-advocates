@@ -1,5 +1,7 @@
 ---
-title: "A Call to Expand Post-Disposition Representation of Youth in the Juvenile Legal System"
+title: "OCA Releases Research on Expanding Post-Disposition Representation of Youth"
+date: 2024-04-10
+author: "Joshua Miller"
 ---
 
 [![](/images/expanding-post-disposition-research.png)](/s/A-Call-to-Expand-Post-Dispo-Representation.pdf)
