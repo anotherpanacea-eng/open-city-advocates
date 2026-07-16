@@ -11,10 +11,13 @@
       <p class="footer-note">Open City Advocates is a 501(c)(3) organization.</p>
     </div>
 
+    {{- $isDraft := hasPrefix .Layout "draft" -}}
+    {{- $homeHref := .Site.Home.RelPermalink -}}
+    {{- if $isDraft }}{{ with .Site.GetPage "/drafts/index-draft" }}{{ $homeHref = .RelPermalink }}{{ end }}{{ end -}}
     <nav class="footer-col" aria-label="Explore">
       <h2 class="footer-heading">Explore</h2>
       <ul class="footer-links">
-        {{ with .Site.GetPage "/" }}<li><a href="{{ .RelPermalink }}">About Us</a></li>{{ end }}
+        <li><a href="{{ $homeHref }}">About Us</a></li>
         {{ with .Site.GetPage "/our-team" }}<li><a href="{{ .RelPermalink }}">Our Team</a></li>{{ end }}
         {{ with .Site.GetPage "/news-updates" }}<li><a href="{{ .RelPermalink }}">News &amp; Updates</a></li>{{ end }}
         {{ with .Site.GetPage "/policy-advocacy" }}<li><a href="{{ .RelPermalink }}">Policy &amp; Advocacy</a></li>{{ end }}

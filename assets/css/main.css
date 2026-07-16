@@ -387,3 +387,4 @@ h3 { font-size: 1.5rem; margin: 1.3em 0 .3em; }
   .door { transition: none; }
   .door:hover { transform: none; }
 }
+.draft-banner a[aria-current="page"] { text-decoration: none; opacity: .55; pointer-events: none; }
