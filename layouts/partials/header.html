@@ -8,9 +8,10 @@
       <ul class="nav-list">
         {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
+            {{ $submenuID := printf "submenu-%s" (anchorize .Name) }}
             <li class="has-children">
-              <span class="nav-parent" tabindex="0">{{ .Name }}</span>
-              <ul class="submenu">
+              <button type="button" class="nav-parent" aria-expanded="false" aria-controls="{{ $submenuID }}">{{ .Name }}</button>
+              <ul class="submenu" id="{{ $submenuID }}">
                 {{ range .Children }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
               </ul>
             </li>
