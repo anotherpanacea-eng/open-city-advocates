@@ -5,7 +5,7 @@
   {{ $desc := (.Description | default .Site.Params.description) }}
   <title>{{ $title }}</title>
   <meta name="description" content="{{ $desc }}">
-  <link rel="canonical" href="{{ .Permalink }}">
+  {{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ else }}<link rel="canonical" href="{{ .Permalink }}">{{ end }}
 
   {{/* Favicon + touch icon */}}
   {{ with resources.Get "images/favicon.png" }}<link rel="icon" type="image/png" href="{{ .RelPermalink }}">{{ end }}
