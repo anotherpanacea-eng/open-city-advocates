@@ -29,6 +29,10 @@ enableGitInfo = false
     pageRef = "/news-updates"
     weight = 30
   [[menu.main]]
+    name = "Policy & Advocacy"
+    pageRef = "/policy-advocacy"
+    weight = 35
+  [[menu.main]]
     name = "Resources"
     weight = 40
   [[menu.main]]

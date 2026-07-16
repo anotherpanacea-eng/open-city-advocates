@@ -159,6 +159,41 @@ h3 { font-size: 1.5rem; margin: 1.3em 0 .3em; }
 .post-list-link:hover { color: var(--accent-dark); }
 .post-list-date { font-family: var(--sans); color: var(--muted); font-size: .9rem; white-space: nowrap; }
 
+/* Policy & Advocacy archive */
+.archive-hero { background: var(--bg-alt); padding: 64px 28px; border-bottom: 1px solid var(--line); }
+.archive-hero .eyebrow { color: var(--accent); }
+.archive-hero h1 { margin: .1em 0 .3em; }
+.archive-hero .lede { max-width: 62ch; color: var(--ink-soft); font-size: 1.12rem; }
+.archive-hero .lede p { margin: 0; }
+.archive { max-width: 880px; margin: 0 auto; padding: 48px 28px 64px; }
+.year-group { margin-bottom: 44px; }
+.year-head { display: flex; align-items: baseline; gap: 14px; border-bottom: 2px solid var(--ink); padding-bottom: 8px; }
+.year-head .yr { font-family: var(--serif); font-size: 1.9rem; font-weight: 600; line-height: 1; }
+.year-head .yc { font-family: var(--sans); color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; }
+.doc-row { display: grid; grid-template-columns: 128px 1fr auto; gap: 22px; align-items: start; padding: 22px 4px; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.doc-row:hover { background: var(--bg-alt); }
+.doc-row .ddate { font-family: var(--sans); color: var(--muted); font-size: .9rem; padding-top: 3px; }
+.dttl { font-family: var(--serif); font-size: 1.35rem; line-height: 1.2; color: var(--ink); }
+.doc-row:hover .dttl { color: var(--accent-dark); }
+.dby { color: var(--ink-soft); font-size: .92rem; margin-top: 4px; }
+.dtags { margin-top: 9px; display: flex; flex-wrap: wrap; gap: 6px; }
+.dtag { font-family: var(--sans); font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; padding: 3px 9px; border: 1px solid var(--line); border-radius: 3px; color: var(--muted); }
+.dtag.type { background: var(--accent); color: #fff; border-color: var(--accent); }
+.dgo { font-family: var(--serif); text-transform: uppercase; letter-spacing: .05em; color: var(--accent-dark); font-size: .95rem; white-space: nowrap; align-self: center; }
+
+/* Document (single testimony) */
+.document .eyebrow { color: var(--accent); }
+.document .doc-by { font-family: var(--sans); color: var(--muted); font-size: 1.02rem; margin-top: -.2em; }
+.document .dtags { margin: .6em 0 1.8em; }
+.cite-note { margin-top: 52px; padding-top: 22px; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: .95rem; }
+.cite-note h3 { font-family: var(--serif); font-size: 1.25rem; margin: 0 0 .3em; color: var(--ink); }
+
+@media (max-width: 640px) {
+  .doc-row { grid-template-columns: 1fr; gap: 5px; }
+  .doc-row .ddate { order: -1; }
+  .dgo { display: none; }
+}
+
 /* Footer */
 .site-footer { background: var(--dark); color: #cdd6e0; margin-top: 40px; }
 .footer-inner { padding: 52px 28px; }
