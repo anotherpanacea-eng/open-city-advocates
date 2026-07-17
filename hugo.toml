@@ -17,7 +17,7 @@ enableGitInfo = false
 
 # Brand-variations exploration (/brand-draft.html only; production layouts ignore this)
 [params.oca]
-  brandTheme = "heritage"   # heritage | warm | blush | ink | gradient | docket
+  brandTheme = "heritage"   # heritage | warm | blush | ink | gradient | gradient-blue | docket
   showSwitcher = true       # floating pill switcher on the brand draft page
 
 [menu]
