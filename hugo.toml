@@ -15,6 +15,11 @@ enableGitInfo = false
   subscribeURL = "https://opencityadvocates.app.neoncrm.com/subscribe.jsp"
   donateURL = "https://opencityadvocates.app.neoncrm.com/forms/donation-form"
 
+# Brand-variations exploration (/brand-draft.html only; production layouts ignore this)
+[params.oca]
+  brandTheme = "heritage"   # heritage | warm | blush | ink | gradient | docket
+  showSwitcher = true       # floating pill switcher on the brand draft page
+
 [menu]
   [[menu.main]]
     name = "About Us"
