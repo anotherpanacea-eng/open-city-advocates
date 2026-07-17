@@ -4,15 +4,15 @@
 - id: commitment
   kicker: "01 · Disposition"
   name: "Commitment"
-  happens: "The court commits a young person to DYRS custody — a ward of the District, often until age 21. Placement can change repeatedly with little or no court oversight."
-  oca: "Since 2022, every committed youth is appointed a post-commitment lawyer — the first-in-the-nation model OCA won in In re N.H.M. and helped the court build."
+  happens: "The court commits a young person to DYRS custody as a ward of the District, often until age 21. Placement can change repeatedly with little or no court oversight."
+  oca: "Since 2022, every committed youth is appointed a post-commitment lawyer, the first-in-the-nation model OCA won in In re N.H.M. and helped the court build."
   links:
     - title: "A Call to Expand Post-Disposition Representation"
       page: "/a-call-to-expand-post-disposition-representation-of-youth-in-the-juvenile-legal-system"
 - id: placement
   kicker: "02 · Placement"
   name: "Placement"
-  happens: "A secure facility, a group home, a psychiatric treatment facility, or home — decisions that can uproot a young person overnight."
+  happens: "A secure facility, a group home, a psychiatric treatment facility, or home: decisions that can uproot a young person overnight."
   oca: "We advocate at every placement decision and monitor what happens inside."
   links:
     - title: "DYRS Performance Oversight testimony (2026)"
@@ -20,7 +20,7 @@
 - id: life-inside
   kicker: "03 · While committed"
   name: "Life inside"
-  happens: "School, behavioral health services, and family contact all continue — or fail to — while a young person is committed."
+  happens: "School, behavioral health services, and family contact all continue (or fail to) while a young person is committed."
   oca: "We fight for education access, real treatment, and family engagement."
   links:
     - title: "LEARNS Act testimony"
@@ -31,14 +31,14 @@
   kicker: "04 · Review"
   name: "Review hearings"
   happens: "Community status review hearings decide when a young person steps down toward home."
-  oca: "We represent our clients at every hearing — and we pushed to reform the rules that govern them."
+  oca: "We represent our clients at every hearing, and we pushed to reform the rules that govern them."
   links:
     - title: "Joint comment on the CSRH rulemaking (2026)"
       href: "/docs/2026-07-01-dcmr-csrh-joint-letter.pdf"
 - id: coming-home
   kicker: "05 · Reentry"
   name: "Coming home"
-  happens: "Housing, re-enrolling in school, finding work — the moment when most support disappears."
+  happens: "Housing, re-enrolling in school, finding work: the moment when most support disappears."
   oca: "Our reentry coordination continues after release; clients stay with OCA for an average of six years."
   links:
     - title: "OVSJG budget testimony (2025)"
@@ -46,7 +46,7 @@
 - id: after
   kicker: "06 · After"
   name: "After commitment"
-  happens: "Commitment ends — but a juvenile record shouldn't follow a young person for life."
+  happens: "Commitment ends, but a juvenile record shouldn't follow a young person for life."
   oca: "We help clients seal their records and press for laws that shorten the system's reach."
   links: []
-  coming: "Record-sealing guide coming — this is the next page OCA builds."
+  coming: "Record-sealing guide coming soon. This is the next page OCA builds."
