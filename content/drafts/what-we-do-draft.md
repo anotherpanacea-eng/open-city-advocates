@@ -17,7 +17,7 @@ Starting after sentencing, every client gets a dedicated, zealous defender with 
 
 ## Holistic advocacy
 
-We build trust gradually and address a wide spectrum of needs, legal and nonlegal alike: family relations, housing, education, public benefits, employment. Our clients stay engaged with OCA for an average of **six years**, long after their commitment ends. <small class="pending">⟦Penelope's "we're not just lawyers, we're mentors" quote removed per the shift away from mentoring language⟧</small>
+Our attorneys focus on the legal case. Dedicated staff, including our reentry coordinator, carry the rest: family relations, housing, education, public benefits, employment. We build trust gradually, and our clients stay engaged with OCA for an average of **six years**, long after their commitment ends. <small class="pending">⟦REFRAMED: now describes the staffing model (attorneys on legal matters, dedicated staff on mentoring and reentry) — pending OCA sign-off. Penelope's "we're not just lawyers, we're mentors" quote removed per the shift away from mentoring as org identity.⟧</small>
 
 ## Reentry support
 
