@@ -51,6 +51,22 @@ body[data-theme="gradient"] .btn:hover{background:#fdf3e0;color:#2d1708}
 body[data-theme="gradient"] .nav-links a.donate{background:#2d1708;color:#fdb71a}
 body[data-theme="gradient"] .aud .card,body[data-theme="gradient"] .journey li{background:rgba(253,243,224,.82);border-color:transparent;backdrop-filter:blur(4px)}
 body[data-theme="gradient"] footer{background:#2d1708;color:#fdb71a}
+body[data-theme="gradient-blue"]{
+  --t-paper:#3a78b5;--t-surface:#e8f2fa;--t-ink:#0d1b2e;--t-ink-soft:rgba(13,27,46,.78);
+  --t-accent:#0d1b2e;--t-accent2:#7fc4f0;--t-rule:rgba(13,27,46,.22);--t-band:rgba(232,242,250,.35);
+  --t-dark:#0d1b2e;--t-dark-text:#7fc4f0;
+  --t-display:'Cormorant Garamond',serif;--t-body:'Manrope',sans-serif;
+  --t-display-weight:500;--t-display-track:-0.02em;--t-radius:14px;
+  background:linear-gradient(175deg,#1d4e89 0%,#3a78b5 45%,#8ec9e8 100%) fixed;
+}
+body[data-theme="gradient-blue"] header{background:rgba(29,78,137,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom-color:rgba(13,27,46,.25)}
+body[data-theme="gradient-blue"] header .nav-links a{color:#e8f2fa}
+body[data-theme="gradient-blue"] header .nav-links a:hover{color:#7fc4f0}
+body[data-theme="gradient-blue"] .btn{background:#0d1b2e;color:#7fc4f0}
+body[data-theme="gradient-blue"] .btn:hover{background:#e8f2fa;color:#0d1b2e}
+body[data-theme="gradient-blue"] .nav-links a.donate{background:#0d1b2e;color:#7fc4f0}
+body[data-theme="gradient-blue"] .aud .card,body[data-theme="gradient-blue"] .journey li{background:rgba(232,242,250,.82);border-color:transparent;backdrop-filter:blur(4px)}
+body[data-theme="gradient-blue"] footer{background:#0d1b2e;color:#7fc4f0}
 body[data-theme="docket"]{
   --t-paper:#fcfaf5;--t-surface:#fff;--t-ink:#1a1612;--t-ink-soft:rgba(26,22,18,.72);
   --t-accent:#c41818;--t-accent2:#fdb71a;--t-rule:#1a1612;--t-band:#f4f0e6;
@@ -77,6 +93,8 @@ body[data-theme="ink"] .logo-primary{display:none}
 body[data-theme="ink"] .logo-reversed{display:block}
 body[data-theme="gradient"] .logo-primary{display:none}
 body[data-theme="gradient"] .logo-reversed{display:block}
+body[data-theme="gradient-blue"] .logo-primary{display:none}
+body[data-theme="gradient-blue"] .logo-reversed{display:block}
 .foot-logo-p{display:block;height:48px;width:auto}
 .foot-logo-r{display:none;height:48px;width:auto}
 body[data-theme="ink"] .foot-logo-p,body[data-theme="heritage"] .foot-logo-p,body[data-theme="warm"] .foot-logo-p,body[data-theme="blush"] .foot-logo-p{display:none}
