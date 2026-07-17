@@ -6,20 +6,20 @@ noindex: true
 build:
   list: never
   render: always
-description: "Legal representation, mentoring, and reentry advocacy for young people committed to DYRS."
+description: "Legal representation, holistic advocacy, and reentry support for young people committed to DYRS."
 ---
 
-We are one of the only providers of post-disposition legal advocacy in DC, and **the only program that combines post-disposition legal advocacy with mentoring**. <small class="pending">⟦source: OCA grant narrative, Nov 2023 — pending OCA sign-off for web use⟧</small>
+We are one of the only providers of post-disposition legal advocacy in DC, and **the only program that pairs it with holistic, long-term support**. <small class="pending">⟦REFRAMED: source (OCA grant narrative, Nov 2023) says "combines post-disposition legal advocacy with mentoring" — reworded per the move away from mentoring language. Confirm the reframed claim is still accurate before web use.⟧</small>
 
 ## Legal representation
 
 Starting after sentencing, every client gets a dedicated, zealous defender with specialized expertise in representing youth as they transition into young adulthood. We advocate at every placement decision and represent our clients at every review hearing. A young person's freedom is decided there.
 
-## Mentoring
+## Holistic advocacy
 
-*"We're not just lawyers, we're mentors."* <small class="pending">⟦Penelope Spain, Impact100 DC pitch — pending OCA sign-off⟧</small> We build trust gradually and address a wide spectrum of needs, legal and nonlegal alike: family relations, housing, education, public benefits, employment. Our clients stay engaged with OCA for an average of **six years**, long after their commitment ends.
+We build trust gradually and address a wide spectrum of needs, legal and nonlegal alike: family relations, housing, education, public benefits, employment. Our clients stay engaged with OCA for an average of **six years**, long after their commitment ends. <small class="pending">⟦Penelope's "we're not just lawyers, we're mentors" quote removed per the shift away from mentoring language⟧</small>
 
-## Reentry advocacy
+## Reentry support
 
 Coming home is the moment most support disappears. Our attorneys and reentry coordinator manage school re-enrollment directly, connect clients to housing and work, and keep showing up after release.
 
